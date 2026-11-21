@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GREEN LIFE - Bảo vệ môi trường</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f8f1;
+    color: #23432c;
+    line-height: 1.7;
+}
+
+header {
+    background: #14532d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #d4edda;
+}
+
+nav {
+    background: #ffffff;
+    padding: 15px 8px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+nav a {
+    display: inline-block;
+    color: #236b3a;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 7px;
+}
+
+nav a:hover {
+    color: #f0a500;
+}
+
+.hero {
+    min-height: 390px;
+    padding: 65px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background:
+    linear-gradient(#123d25a8,#123d25a8),
+    url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #f0c75e;
+    color: #23432c;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: center;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #196534;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px #00000012;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #216b39;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+.card p {
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+.message {
+    background: #dff0df;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.message h2 {
+    color: #14532d;
+    margin-bottom: 12px;
+}
+
+footer {
+    background: #14532d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+footer a {
+    color: #f0c75e;
+    text-decoration: none;
+}
+
+@media (max-width: 360px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body id="top">
+
+<header>
+    <div class="logo">🌿 GREEN LIFE</div>
+    <p>Chung tay bảo vệ hành tinh xanh</p>
+</header>
+
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="Blog.dc.html">Thông tin</a>
+    <a href="About.dc.html">Giới thiệu</a>
+    <a href="Contact.dc.html">Liên hệ</a>
+    <a href="./vitri.dc.html">Vị trí</a>
+</nav>
+
+
+<div class="hero">
+    <h1>HÃY CỨU LẤY<br>HÀNH TINH XANH!</h1>
+    <p>
+        Một hành động nhỏ hôm nay<br>
+        Tạo nên sự thay đổi lớn ngày mai.
+    </p>
+    <a href="#hanhdong" class="btn">
+        KHÁM PHÁ NGAY
+    </a>
+</div>
+
+<section>
+    <h2 class="section-title">VÌ SAO PHẢI BẢO VỆ MÔI TRƯỜNG?</h2>
+    <p>
+        Môi trường là ngôi nhà chung của con người
+        và mọi sinh vật. Bảo vệ môi trường chính là
+        bảo vệ cuộc sống và tương lai của chúng ta.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500"
+                 alt="Rừng xanh">
+            <h3>🌳 Bảo vệ rừng</h3>
+            <p>Trồng cây và bảo vệ hệ sinh thái tự nhiên.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=500"
+                 alt="Năng lượng sạch">
+            <h3>☀️ Năng lượng sạch</h3>
+            <p>Sử dụng năng lượng thân thiện với môi trường.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=500"
+                 alt="Tái chế">
+            <h3>♻️ Tái chế rác thải</h3>
+            <p>Phân loại và tái sử dụng các vật liệu phù hợp.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?w=500"
+                 alt="Bảo vệ nguồn nước">
+            <h3>💧 Bảo vệ nguồn nước</h3>
+            <p>Giữ gìn nguồn nước sạch cho mọi sự sống.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="message" id="hanhdong">
+    <h2>MỖI NGƯỜI MỘT HÀNH ĐỘNG</h2>
+    <p>
+        Không xả rác bừa bãi.<br>
+        Hạn chế nhựa dùng một lần.<br>
+        Tiết kiệm điện và nước.<br>
+        Tích cực trồng cây xanh.
+    </p>
+    <br>
+    <a href="thongtin.html" class="btn">
+        TÌM HIỂU THÊM
+    </a>
+</section>
+
+<section>
+    <h2 class="section-title">CÙNG CHÚNG TÔI LAN TỎA</h2>
+    <p>
+        Hãy cùng GREEN LIFE xây dựng một thế giới
+        xanh hơn, sạch hơn và bền vững hơn.
+    </p>
+    <br>
+    <a href="https://www.unep.org/"
+       target="_blank" class="btn">
+        TỔ CHỨC MÔI TRƯỜNG LIÊN HỢP QUỐC
+    </a>
+</section>
+
+<footer>
+    <h2>🌿 GREEN LIFE</h2>
+    <p>Sống xanh hôm nay - Tương lai xanh ngày mai!</p>
+    <p>Website tuyên truyền bảo vệ môi trường</p>
+    <br>
+    <a href="#top">↑ QUAY LẠI ĐẦU TRANG</a>
+    <p>© 2026 GREEN LIFE</p>
+</footer>
+
+</body>
+</html>
